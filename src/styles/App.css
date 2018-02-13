@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+.App {
+  text-align: center;
+}
+
+/* Typography */
+html,
+body {
+  font-size: 18px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+h1 {
+  font-size: 2.2rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Element */
+.body_button {
+  padding: .3rem;
+  text-align: center;
+  border: solid 5px #436294;
+  color: #436294;
+  width: 200px;
+}
+
+.sign_up_button {
+  padding: .5rem .8rem;
+  background-color: #c09b83;
+  color: #2e2020;
+  font-weight: bold;
+  border: none;
+}
+
+/* Header */
+.header_logo {
+  height: 80px;
+}
+
+.site_header {
+  position: relative;
+  height: 1000px;
+  background-image: url("../assets/avi-richards-183715-2.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.site_title {
+  position: fixed;
+  top: 30%;
+  padding: 1rem;
+  margin: 0 8%;
+  border: solid 7px #50526c;
+  color: #50526c
+}
+
+/* Body */
+/*.body_container {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
+}*/
+
+.section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.text_section {
+  margin: 0 auto;
+  padding: 3rem;
+  text-align: center;
+  background: white;
+}
+
+/* Parallax
+.parallax::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateZ(-1px) scale(1.5);
+  background-size: 100%;
+  z-index: -1;
+}
+
+.background_1::after {
+  background-image: url("../assets/rohit-tandon-411851.jpg");
+  background-size: cover;
+  attachment: fixed;
+}
+
+.background_2::after {
+  background-image: url("../assets/clark-tibbs-367075.jpg");
+  background-size: contain;
+  min-height: 100%;
+}
+
+.bkgrd_image_1, .bkgrd_image_1, .bkgrd_image_1 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bkgrd_image_1 {
+  background-image: url("../assets/rohit-tandon-411851.jpg");
+  min-height: 100%;
+}*/
+
+.background_1 {
+  position: relative;
+  height: 35vh;
+  background-image: url("../assets/clark-tibbs-367075-2.jpeg");
+  background-size: contain;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/*.background_2 {
+  position: relative;
+  height: 400px;
+  background-image: url("../assets/rohit-tandon-411851-2.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.bgimg-3 {
+  background-image: url("img_parallax3.jpg");
+  min-height: 400px;
+}*/
+
+/* Footer */
+.site_footer {
+  color: #ffffff;
+  position: relative;
+  bottom: 0;
+  height: 400px;
+  background-image: url("../assets/rohit-tandon-411851-3.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.footer_content {
+  bottom: 0;
+  left: 0;
+  padding: 3rem;
+}
+
+.mailing_title {
+  margin-bottom: .5rem;
+}
+
+.mailing_input {
+  width: 200px;
+  padding: .5rem;
+}
