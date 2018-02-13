@@ -17,6 +17,11 @@ h1 {
   font-family: "Open Sans", sans-serif;
 }
 
+h2 {
+  font-size: 1.8rem;
+  text-align: center;
+}
+
 /* Element */
 .body_button {
   padding: .3rem;
@@ -67,16 +72,27 @@ h1 {
 
 .section {
   position: relative;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.section_2 {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .text_section {
   margin: 0 auto;
   padding: 3rem;
-  text-align: center;
+  background: white;
+}
+
+.ul_section {
+  margin: 0 auto;
+  padding: 3rem;
   background: white;
 }
 
@@ -162,9 +178,37 @@ h1 {
 
 .mailing_title {
   margin-bottom: .5rem;
+  color: black;
 }
 
 .mailing_input {
   width: 200px;
   padding: .5rem;
+}
+
+/* Grid */
+.grid_section {
+  background: white;
+}
+
+.grid_wrapper {
+  display: grid;
+  grid-template-rows: auto;
+  grid-gap: 1rem;
+  align-items: center;
+  align-content: center;
+  grid-template-columns: 23.5% 23.5% 23.5% 23.5%;
+}
+
+.grid_item {
+  padding: 1rem;
+  background: #b0bdc6;
+  border: 1px solid grey;
+  margin: 2rem 0;
+}
+
+.grid_thumbnail_image {
+  text-align: center;
+  margin-bottom: 1rem;
+  max-height: 230px;
 }
